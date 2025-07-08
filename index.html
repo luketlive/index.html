@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Index</title>
+</head>
+
+<body> 
+
+  <h1>Lucas Anderson</h1>
+    
+
+  <p>
+        Olá! Meu nome é Lucas Anderson da Silva, tenho 32 anos e moro em Araxá-MG.
+        Sou apaixonado por RPG de mesa, literatura, música e video games.
+        Quando não trabalhandom estudando ou treinando na academia, gosto de jogar RPG de
+        mesa com amigos e jogos online.
+      </p>
+
+  <div style="text-align: center; margin: 20px 0;">
+  <button onclick="mostrarMensagem()">Clique para ver uma mensagem!</button>
+</div>
+
+<div id="mensagem" style="margin-top: 15px; font-size: 1.1rem; color: #2a52be; text-align: center;">
+</div>
+
+  <ul>
+        <li>Jogos de RPG de mesa</li>
+        <li>Vídeo-game</li>
+        <li>Leitura</li>
+      </ul>
+
+     
+
+      <img
+        src="imagem.jpg"
+        alt="Imagem sobre RPG de mesa"
+      />
+
+  <table border="1" style="margin: 30px auto; border-collapse: collapse; text-align: center;">
+        <tr>
+          <th>País</th>
+          <th>Imagem</th>
+        </tr>
+        <tr>
+          <td>Japão</td>
+          <td><img src="japão.jpg" alt="Japão" style="width:150px; border-radius: 8px;" /></td>
+        </tr>
+        <tr>
+          <td>Nova Zelândia</td>
+          <td><img src="Nova zelandia.jpg" alt="Nova Zelândia" style="width:150px; border-radius: 8px;" /></td>
+        </tr>
+        <tr>
+          <td>Canadá</td>
+          <td><img src="Canada.jpg" alt="Canadá" style="width:150px; border-radius: 8px;" /></td>
+        </tr>
+      </table>
+
+      <p style="text-align: center; margin-top: 30px;">
+        <a href="https://jovemnerd.com.br/noticias" target="_blank" rel="noopener noreferrer">
+          Visite o Joven Nerd para se atualizar em lançamentos de filmes, jogos e séries!
+        </a>
+      </p>
+
+
+<style>
+/* Mudando a corda página */
+
+body {
+      background-color: #a5ecbd;
+}
+
+/* Colocando o título no centro e mudando a cor */
+h1 {
+      text-align: center;
+      color: #092d91; 
+    }
+
+/* Ajustando o tamanho da fonte do paragrafo e justificando */
+p {
+      font-size: 1.25rem; 
+      text-align: justify; 
+}
+
+/* Aumentando o espaçamento dos itens da lista */
+ul li {
+      margin-bottom: 25px; 
+    }
+
+/* Alterando o tamanho e as bordas da imagem */
+img {
+      max-width: 500px; 
+      border-radius: 30px;
+    }
+
+/* Estilizando a tabela dos países */
+    table {
+      
+      text-align: center;
+      width: 90%;
+      background-color: #af234d;
+      border-radius: 30px;
+      overflow: hidden;
+    }
+
+    table th {
+      background-color: #64dff5;
+      color: rgb(3, 4, 5);
+      font-size: 1.5rem;
+    }
+
+    table td {
+      border: 3px solid #177954;  
+      background-color: #f9f9f9;
+    }
+
+
+a {
+      color: #0066cc;
+      transition: color 0.3s;
+    }
+
+    a:hover {
+      color: #e79c3b;
+      text-decoration: underline;
+    }
+
+</style>
+
+<script>
+    /*Colocando a função da mensagem no botão */
+  function mostrarMensagem() {
+    const divMensagem = document.getElementById("mensagem");
+    divMensagem.textContent = "🎲🎲🎲Bem-vindo(a) a minha página. Role iniciativa para começar a diversão🎲🎲🎲!";
+  }
+</script>
+
+
+
+</body>
+</html>
